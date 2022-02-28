@@ -20,7 +20,7 @@ namespace FunnySortingAlgos
             var dict = arr.ToDictionary(item => item, item => item);
             Parallel.ForEach(dict, val => waitAndPrint(val.Key));
         }
-
+        /*
         public static void Main(string[] args)
         {
             int[] arr = { 0, 3, 2, 5, 1, 9, 10 };
@@ -28,5 +28,6 @@ namespace FunnySortingAlgos
             WaitSort p = new WaitSort();
             p.waitSort(arr);
         }
+        */
     }
 }

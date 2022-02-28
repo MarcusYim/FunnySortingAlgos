@@ -29,7 +29,7 @@ namespace FunnySortingAlgos
                 Console.WriteLine(i);
             }
         }
-
+        /*
         public static void Main(string[] args)
         {
             int[] arr = { 0, 3, 2, 5, 1, 9, 10 };
@@ -37,5 +37,6 @@ namespace FunnySortingAlgos
             StalinSort p = new StalinSort();
             p.stalinSort(arr);
         }
+        */
     }
 }
