@@ -23,7 +23,7 @@ namespace FunnySortingAlgos
                 sum -= BigInteger.Pow(2, currentNum);
             }
         }
-
+        /*
         public static void Main(string[] args)
         {
             int[] arr = { 1, 3, 2, 25, 10, 9, 14 };
@@ -31,5 +31,6 @@ namespace FunnySortingAlgos
             PowerSort p = new PowerSort();
             p.powerSort(arr);
         }
+        */
     }
 }
